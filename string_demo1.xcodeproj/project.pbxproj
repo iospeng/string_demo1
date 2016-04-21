@@ -15,6 +15,7 @@
 		102B51F61CC8B84C00E4A40B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102B51F41CC8B84C00E4A40B /* LaunchScreen.storyboard */; };
 		102B52011CC8B84C00E4A40B /* string_demo1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B52001CC8B84C00E4A40B /* string_demo1Tests.m */; };
 		102B520C1CC8B84C00E4A40B /* string_demo1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B520B1CC8B84C00E4A40B /* string_demo1UITests.m */; };
+		102B521B1CC8C47200E4A40B /* host.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B521A1CC8C47200E4A40B /* host.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		102B52071CC8B84C00E4A40B /* string_demo1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = string_demo1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		102B520B1CC8B84C00E4A40B /* string_demo1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = string_demo1UITests.m; sourceTree = "<group>"; };
 		102B520D1CC8B84C00E4A40B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		102B52191CC8C47200E4A40B /* host.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = host.h; sourceTree = "<group>"; };
+		102B521A1CC8C47200E4A40B /* host.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = host.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				102B51F41CC8B84C00E4A40B /* LaunchScreen.storyboard */,
 				102B51F71CC8B84C00E4A40B /* Info.plist */,
 				102B51E61CC8B84C00E4A40B /* Supporting Files */,
+				102B52191CC8C47200E4A40B /* host.h */,
+				102B521A1CC8C47200E4A40B /* host.m */,
 			);
 			path = string_demo1;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				102B51EE1CC8B84C00E4A40B /* ViewController.m in Sources */,
 				102B51EB1CC8B84C00E4A40B /* AppDelegate.m in Sources */,
 				102B51E81CC8B84C00E4A40B /* main.m in Sources */,
+				102B521B1CC8C47200E4A40B /* host.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
