@@ -20,6 +20,8 @@
     NSString *str = @"hello world";
     NSString *str1 = [str stringByReplacingOccurrencesOfString:@" " withString:@" asdf "];
     NSLog(@"%@",str1);
+    NSString * str2 = [str1 stringByReplacingOccurrencesOfString:@"hello asdf world" withString:@"AFNetWorking"];
+    NSLog(@"%@",str2);
 }
 
 - (void)didReceiveMemoryWarning {
