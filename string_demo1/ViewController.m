@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSString *str = @"hello world";
+    NSString *str1 = [str stringByReplacingOccurrencesOfString:@" " withString:@" asdf "];
+    NSLog(@"%@",str1);
 }
 
 - (void)didReceiveMemoryWarning {
