@@ -16,6 +16,7 @@
 		102B52011CC8B84C00E4A40B /* string_demo1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B52001CC8B84C00E4A40B /* string_demo1Tests.m */; };
 		102B520C1CC8B84C00E4A40B /* string_demo1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B520B1CC8B84C00E4A40B /* string_demo1UITests.m */; };
 		102B521B1CC8C47200E4A40B /* host.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B521A1CC8C47200E4A40B /* host.m */; };
+		102B52211CC8CA3F00E4A40B /* MY.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B52201CC8CA3F00E4A40B /* MY.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		102B520D1CC8B84C00E4A40B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		102B52191CC8C47200E4A40B /* host.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = host.h; sourceTree = "<group>"; };
 		102B521A1CC8C47200E4A40B /* host.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = host.m; sourceTree = "<group>"; };
+		102B521F1CC8CA3F00E4A40B /* MY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MY.h; sourceTree = "<group>"; };
+		102B52201CC8CA3F00E4A40B /* MY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MY.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				102B51E61CC8B84C00E4A40B /* Supporting Files */,
 				102B52191CC8C47200E4A40B /* host.h */,
 				102B521A1CC8C47200E4A40B /* host.m */,
+				102B521F1CC8CA3F00E4A40B /* MY.h */,
+				102B52201CC8CA3F00E4A40B /* MY.m */,
 			);
 			path = string_demo1;
 			sourceTree = "<group>";
@@ -279,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				102B51EE1CC8B84C00E4A40B /* ViewController.m in Sources */,
+				102B52211CC8CA3F00E4A40B /* MY.m in Sources */,
 				102B51EB1CC8B84C00E4A40B /* AppDelegate.m in Sources */,
 				102B51E81CC8B84C00E4A40B /* main.m in Sources */,
 				102B521B1CC8C47200E4A40B /* host.m in Sources */,
@@ -505,6 +511,7 @@
 				102B52121CC8B84C00E4A40B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		102B52131CC8B84C00E4A40B /* Build configuration list for PBXNativeTarget "string_demo1Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +520,7 @@
 				102B52151CC8B84C00E4A40B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		102B52161CC8B84C00E4A40B /* Build configuration list for PBXNativeTarget "string_demo1UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +529,7 @@
 				102B52181CC8B84C00E4A40B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
