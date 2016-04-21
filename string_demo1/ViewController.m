@@ -23,6 +23,7 @@
     NSString * str2 = [str1 stringByReplacingOccurrencesOfString:@"hello asdf world" withString:@"AFNetWorking"];
     str2 = [NSString stringWithFormat:@"my %@",str2];
     NSLog(@"%@",str2);
+    NSLog(@"gitHub");
 }
 
 - (void)didReceiveMemoryWarning {
